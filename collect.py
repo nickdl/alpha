@@ -5,6 +5,7 @@ so this script is intended to run in a shorter interval (eg week)
 so that the partials that are collected can be concatenated into a continuous dataset.
 
 A folder data/partials_{X} is expected for the execution of the script for WEEK = X
+Also an API key for Alpha Vantage has to be exported as an environment variable.
 """
 
 import requests
